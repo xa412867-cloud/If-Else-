@@ -2,11 +2,11 @@
 #include<stdio.h>
 int main(){
 
-    int n;
+    int x;
     printf("Enter The Number ");
-    scanf("%d",&n);
+    scanf("%d",&x);
 
-    if(n%2==0){
+    if(x%2==0){
         printf("Number Is Even ");
     }
     else{
@@ -14,4 +14,5 @@ int main(){
     }
 
     return 0;
+
 }
